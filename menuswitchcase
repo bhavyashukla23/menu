@@ -1,0 +1,32 @@
+#include<stdio.h>
+void main()
+{
+	int c;
+	printf("ENTER ANY NUMBER FROM 1 TO 5:");
+	scanf("%d",&c);
+	switch(c)
+	{
+		case 1: { printf("THE FOOD ITEM IS PIZZA \n");
+	           	printf("THE PRICE OF THE FOOD ITEM SELECTED IS Rs.239 \n");
+			    break;
+		        }
+		case 2: { printf("THE FOOD ITEM IS BURGER \n");
+	           	printf("THE PRICE OF THE FOOD ITEM SELECTED IS Rs.129 \n");
+	        	break;
+            	}
+       	case 3: { printf("THE FOOD ITEM IS PASTA \n");
+	           	printf("THE PRICE OF THE FOOD ITEM SELECTED IS Rs.179 \n");
+	        	break;
+            	}
+        case 4: { printf("THE FOOD ITEM IS FRENCH FRIES \n");
+	           	printf("THE PRICE OF THE FOOD ITEM SELECTED IS Rs.99 \n");
+	        	break;
+            	}
+        case 5: { printf("THE FOOD ITEM IS SANDWICH \n");
+	           	printf("THE PRICE OF THE FOOD ITEM SELECTED IS Rs.149 \n");
+	        	break;
+            	}
+        default : printf("INVALID CHOICE");    	
+	}
+	return 0;
+}
